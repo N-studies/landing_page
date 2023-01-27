@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+ul {
+    padding: 0%;
+    margin-left: auto;
+    list-style-type: none;
+    gap: 10px
+}
+
+.links {
+    display: flex;
+}
