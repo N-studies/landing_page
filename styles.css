@@ -2,31 +2,41 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 2px solid red;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-  
+  /*border: 2px solid red; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: 0;
 }
 
 .header {
   display: flex;
-  align-items: center;
+  justify-content: center;
   color: #f9faf8;
   background-color: #1f2937;
   font: roberto;
-  flex: 1;
+  align-items: center;
   
   
+  
+}
+
+img {
+  height: 200px;
+  width: 400px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
+  margin-right: auto;
+  
 }
 
 ul {
   padding: 0%;
-  margin-left: auto;
+  
   list-style-type: none;
   gap: 10px;
 }
@@ -38,37 +48,72 @@ ul {
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: #f9faf8;
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: #f9faf8;
 }
 
 a:hover {
   text-decoration: none;
+  color: #f9faf8;
 }
 
 a:active {
   text-decoration: none;
+  color: #f9faf8;
 }
 
 .one {
-    display: flex;
-    background-color: #1F2937;
-    color: #E5E7EB;
+  display: flex;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 50px;
+  
+  
+  /*border: 2px solid green;*/
 }
 
 .left-text {
-    display: flex;
-    border: 2px solid blue;
-    flex-direction: column;
-    max-width: ;
+  display: flex;
+  flex-direction: column;
+  max-width: 425px;
+  
+}
+
+.left-text.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .main-title {
-    font-size: 48px;
-    font-weight: bolder;
-    flex: 1;
+  font-size: 48px;
+  font-weight: bolder;
+  flex: 1;
+}
+
+button {
+  background-color: royalblue;
+  border: 1px royalblue;
+  padding: 5px 18px 5px 18px;
+  color: #e5e7eb;
+  border-radius: 5px;
+}
+
+.top-button {
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid red;
+  background-color: #1f2937;
 }
