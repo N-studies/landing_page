@@ -17,8 +17,8 @@ body {
 }
 
 img {
-  height: 200px;
-  width: 400px;
+  height: 210px;
+  width: 425px;
   margin-left: auto;
   
 }
@@ -72,7 +72,7 @@ a:active {
 .left-text {
   display: flex;
   flex-direction: column;
-  max-width: 425px;
+  max-width: 450px;
 }
 
 .left-text.subtext {
