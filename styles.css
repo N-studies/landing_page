@@ -71,6 +71,7 @@ a:active {
   display: flex;
   flex-direction: column;
   max-width: 450px;
+  height: fit-content;
 }
 
 .left-text.subtext {
@@ -86,15 +87,17 @@ a:active {
 
 button {
   background-color: #3882f6;
-  border: 1px #3882f6;
+  border: 1px solid #e5e7eb;
   padding: 5px 18px 5px 18px;
   color: #e5e7eb;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .top-button {
   width: fit-content;
   margin-top: 10px;
+  border: 1px #3882f6;
 }
 
 .hero {
@@ -118,6 +121,8 @@ button {
 .hero-right {
   /*border: 2px solid pink;*/
   display: flex;
+  padding-left: 100px;
+  margin-left: 50px;
   padding-right: 100px;
 }
 /* Hero end */
@@ -149,7 +154,6 @@ button {
   border-radius: 10px;
   width: 100px;
   height: 100px;
-
 }
 
 .images {
@@ -169,7 +173,7 @@ button {
 /* Upper Middle end */
 /* Lower Middle start */
 .three {
-  background-color: #e5e7eb ;
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,14 +181,13 @@ button {
 
 .quote {
   font-size: 36px;
-  font-style:  italic;
+  font-style: italic;
   font-weight: lighter;
   width: 800px;
   margin-top: 100px;
-
 }
 
-.author{
+.author {
   margin-bottom: 100px;
   font-weight: bold;
   font-size: 24px;
@@ -198,3 +201,41 @@ button {
 }
 
 /*Lower Middle end*/
+/*Lower start*/
+
+.four {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  width: 800px;
+  color: #f9faf8;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.last-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.button-subtext {
+  display: flex;
+  align-items: center;
+}
+
+.last-subtext {
+  margin-right: auto;
+}
